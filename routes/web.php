@@ -21,8 +21,8 @@ Route::get('/contact', function () {
 Route::get('/dit/is/een/lange-url/zeg', 'PageController@longUrl');
 Route::redirect('/korteUrl', '/dit/is/een/lange-url/zeg');
 
-Route::get('/blog/artikel/{artikel}''BlogController.php');
 
+Route::get('/blog/artikel/{artikel}','BlogController@showArtikel');
 
 
 
