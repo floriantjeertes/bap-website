@@ -22,7 +22,7 @@ NAVIGATION
 </nav>
 
 <main>
-    MAIN
+    @yield('content')
 </main>
 
 <footer>
