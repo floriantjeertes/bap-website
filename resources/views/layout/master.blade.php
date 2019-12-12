@@ -12,7 +12,9 @@
 </head>
 <body>
 <header>
-    HEADER
+    @section('header')
+        De header
+    @show
 </header>
 
 <nav>
